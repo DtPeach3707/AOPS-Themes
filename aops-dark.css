@@ -1,0 +1,618 @@
+/* Dark Mode for Art of Problem Solving */
+
+
+/*
+This code shows the order I did each page in AOPS's website in comments
+(some I completley skipped because it used styles I already made into dark mode)
+Therefore, if you're trying to find an important background or font styling,
+I would recommend looking for it in the first hundred or so lines of code before
+looking for it on the specific page.
+Otherwise, enjoy AOPS dark mode!
+*/
+
+/* color variables */
+
+:root{
+    --background-color: #000;
+    --main-color: #fff;
+    --slight-light: #d8d8d8;
+    --new-blue: #0060d0;
+    --slight-blue: #0050b0;
+    --slight-dark: #181818;
+    --dark-blue: #004080;
+    --slighter-dark: #222;
+    --blue-hover: #126;
+    --gray: #444;
+}
+
+/* Math Competition Problems Page */
+
+.page-wrapper{
+    background-color: var(--background-color) !important;
+}
+
+.mw-parser-output p, .mw-parser-output dl dd i{
+    color: var(--main-color) !important;
+}
+
+.mw-parser-output p > img, .mw-parser-output p a img{
+    filter: invert(100%) !important;
+}
+
+.mw-parser-output h2{
+    color: var(--new-blue) !important;
+}
+
+.page-wrapper > h1{
+    color: var(--new-blue) !important;
+}
+
+.wikitable{
+    color: var(--main-color) !important;
+    background-color: var(--background-color) !important;
+}
+
+.wikitable > tbody:nthchild(1):nthchild(1){
+    background-color: var(--new-blue) !important;
+}
+
+.wikitable tbody tr th{
+    background-color: var(--dark-blue) !important;
+    color: var(--main-color) !important;
+}
+
+.toc{
+    background-color: var(--background-color) !important;
+    border-color: var(--main-color) !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    color: var(--new-blue) !important;
+}
+
+.toctitle{
+    background-color: var(--background-color) !important;
+    color: var(--new-blue) !important;
+}
+
+.menu.open, .wikiannounce-outer{
+    background-color: var(--background-color) !important; 
+}
+
+.submenu > h1{
+    color: var(--main-color) !important;
+}
+
+.submenu-wrapper > span > a{
+    color: var(--new-blue) !important;
+}
+
+.left-navigation.wiki{
+    background-color: var(--slight-dark) !important;
+}
+
+#page-wrapper{
+   background-color: var(--slight-dark) !important; 
+}
+
+#side-column::after{
+    color: var(--background-color) !important;
+}
+
+.mw-normal-catlinks > a, .mw-normal-catlinks > ul > li > a{
+    color: var(--new-blue) !important;
+}
+
+#breadcrumbs-wrapper.clickable-breadcrumb, .title, #breadcrumbs-wrapper{
+    background-color: var(--dark-blue) !important;
+}
+
+#main-menubar, .menubar-content{
+    background-color: var(--slight-dark) !important;
+}
+
+.menubar-label{
+    color: var(--new-blue) !important;
+}
+
+.wikitable > tbody > tr > td{
+    background-color: var(--slight-dark) !important;
+}
+
+.menubar-label-link, .mw-redirect{
+    color: var(--new-blue) !important;
+}
+
+#searchInput{
+    background-color: var(--slight-dark) !important;
+    color: var(--main-color) !important;
+}
+
+/* Top of AOPS Wiki */
+
+.sharedsite-wrapper{
+    filter: invert(1) !important;
+}
+
+.site > a > img, .site-info, .site-quick-nav{
+    filter: invert(1) !important;
+}
+
+.site-snippet{
+    color: var(--new-blue) !important;
+}
+
+/* Bottom of AOPS Wiki */
+
+.link img, .footer-submit-arrow{
+    filter: invert(1) hue-rotate(170deg) saturate(200%);
+}
+
+.footer-email{
+    color: var(--main-color);
+    background-color: var(--slight-dark)
+}
+
+/* AOPS Courses Page */
+
+.aops-panel, .box, .image-content > .entry{
+    background-color: var(--background-color) !important;
+    color: var(--main-color) !important;
+}
+
+#quote-panel{
+    color: var(--main-color) !important;
+    background-color: var(--slight-dark) !important;
+}
+
+.hover-block.round-dropdown{
+    background-color: var(--slight-dark) !important;
+    color: var(--main-color) !important;
+}
+
+.pioo > table, .pioo > table > tbody > tr > th{
+    filter: invert(1) !important;
+}
+
+.pioo > table > tbody > tr > td > a{
+    filter: invert(1) !important;
+    color: var(--new-blue) !important;
+}
+
+.intro-box{
+    color: var(--main-color) !important;
+}
+
+/* AOPS Book Store */
+
+.product-box.clearfix{
+    background-color: var(--slight-dark) !important;
+    color: var(--main-color) !important;
+}
+
+.content{
+    background-color: var(--background-color) !important;
+}
+
+#side-column .menu .submenu .main-option, #side-column .menu .submenu h1{
+    color: var(--main-color) !important;
+}
+
+.indenter a{
+    color: var(--new-blue) !important;
+}
+
+.submenu a {
+    color: var(--new-blue) !important
+}
+
+.main-option{
+    background-color: var(--background-color) !important;
+}
+
+.main-option a{
+    color: var(--new-blue) !important;
+}
+
+#side-column .menu.open>.main-option a{
+    background-color: var(--background-color) !important;
+}
+
+.white-panel, .qty{
+    background-color: var(--background-color) !important;
+    color: var(--main-color) !important;
+}
+
+/* Book Preview */
+
+.white-panel .main-option, .order h4{
+    color: var(--new-blue) !important;
+}
+
+.intro-box h1, .product-title, .right-column-p div h3, .right-column-p div a{
+    color: var(--new-blue) !important;
+}
+
+.new-pdf, .pdf{
+    background-color: var(--background-color) !important;
+    color: var(--new-blue) !important;
+}
+
+.diagnostics h3, .excerpts h3, .aops-panel.also-available h2{
+    color: var(--slight-blue) !important;
+}
+
+.product-text .title{
+    background-color: var(--background-color) !important;
+    color: var(--new-blue) !important;
+}
+
+.text-box, .solutions-box, .item-box{
+    background-color: var(--slight-dark) !important;
+}
+
+.title-wrapper .title{
+    color: var(--main-color) !important;
+}
+
+.overview h3{
+    color: var(--slight-blue) !important;
+}
+
+/* AOPS Main Wiki Page */
+
+.mw-parser-output div div div div, .mw-parser-output div div div{
+    background-color: var(--background-color) !important;
+}
+
+.mw-parser-output div{
+    background-color: var(--slight-dark) !important;
+    color: var(--main-color) !important;
+}
+
+.mw-parser-output div:nth-of-type(4){
+    background-color: var(--background-color) !important;
+}
+
+/* Users Page */
+
+.center .floatnone{
+    background-color: var(--background-color) !important;
+}
+
+.mw-headline{
+    color: var(--new-blue);
+}
+
+/* Recent Changes */
+
+.rcoptions.cloptions, .rcoptions.cloptions legend{
+    background-color: var(--background-color) !important;
+    color: var(--main-color) !important;
+    border: none !important;
+}
+
+fieldset dd{
+    border-left: none;
+}
+
+.mw-changeslist-legend-newpage{
+    margin-left: 6.375em !important;
+}
+
+.mw-changeslist h4{
+    color: var(--slight-blue) !important;
+}
+
+.comment, .mw-enhanced-rc, .mw-changeslist-line-inner{
+    color: var(--main-color) !important;
+}
+
+.auto-comment{
+    color: var(--slight-light) !important;
+}
+
+.mw-input select, .mw-input input{
+    color: var(--main-color);
+    background-color: var(--slight-dark);
+}
+
+/* Course Catalog */
+
+.header{
+    background-color: var(--background-color) !important;
+}
+
+#main-column h1, .grey-panel.white-header .header h3 {
+    color: var(--new-blue) !important;
+}
+
+#main-column p{
+    color: var(--main-color) !important;
+}
+
+.course{
+    background-color: var(--slight-dark);
+}
+
+.course:hover{
+    background-color: var(--slighter-dark);
+}
+
+.course:hover h1{
+    background-color: var(--blue-hover) !important
+}
+
+.course div{
+    color: var(--main-color) !important;
+}
+
+.school-quote{
+    background-color: var(--slight-dark);
+}
+
+.school-quote p{
+    color: var(--main-color);
+}
+
+/* How Classes Work Page */
+
+.tab-contents, .aops-modal-frame.aops-modal-vert-scroll.aops-modal-standard{
+    background-color: var(--background-color) !important;
+    color: var(--main-color);
+}
+
+.sch-instructor-wrapper.instructor-row.clickable-instructor, .instructor-row.clickable-instructor{
+    background-color: var(--slight-dark);
+}
+
+.sch-instructor-wrapper.instructor-row.clickable-instructor:hover{
+    background-color: var(--slighter-dark);
+}
+
+.sch-how-copy-full h3{
+    color: var(--new-blue);
+}
+
+.tab.active{
+    background-color: var(--blue-hover) !important;
+}
+
+.tab-contents .testimonial{
+    background-color: var(--gray) !important;
+}
+
+.testimonial .class a{
+    color: var(--main-color) !important;
+}
+
+.tab-contents h3{
+    color: var(--new-blue);
+}
+
+/* Course Map */
+
+.headertitle{
+    background-color: var(--background-color) !important;
+}
+
+.legend-box, .excerpts a{
+    background-color: var(--slight-dark) !important;
+}
+
+.legend-box:hover{
+    background-color: var(--slighter-dark) !important;
+}
+
+.aops-scroll-outer.aops-scrollbar-visible{
+    filter: invert(1) !important;
+}
+
+.aops-scroll-inner{
+    filter: invert(1) !important;
+}
+
+.course{
+    background-color: var(--background-color) !important;
+}
+
+/* WOOT */
+
+.woot-gray-bg{
+    filter: invert(1);
+}
+
+.woot-gray-bg div{
+    filter: invert(1);
+}
+
+.woot-header-why-text, .woot-call-to-action{
+    color: var(--new-blue);
+}
+
+.woot-learn-more{
+    background-color: var(--background-color);
+}
+
+.woot-testimonials{
+    color: var(--main-color);
+}
+
+.woot-testimonial-1{
+    background-color: #84051c;
+}
+
+.woot-testimonial-2{
+    background-color: #5f0b58;
+}
+
+.woot-testimonial-3{
+    background-color: #191284;
+}
+
+.woot-testimonial-4{
+    background-color: #5e171d;
+}
+
+.woot-testimonial-5{
+    background-color: #826307;
+}
+
+.woot-testimonial-6{
+    background-color: #220671;
+}
+
+/* School Handbook */
+
+#side-column .menu h1{
+    background-color: var(--background-color) !important;
+}
+
+#side-column .menu h1 a, .aops-panel h2{
+    color: var(--new-blue);
+}
+
+.grid-1-3 .white-panel h1{
+    color: var(--new-blue) !important;
+}
+
+/* Math Jams */
+
+#main-column ul li{
+    color: var(--main-color);
+}
+
+.form{
+    background-color: var(--background-color) !important;
+}
+
+.aops-panel h3{
+    color: var(--new-blue);
+}
+
+/* Program Comparison */
+
+.hide-desktop.mb-20, .hide-mobile.mt-0, .section-intro.center h2{
+    color: var(--new-blue);
+}
+
+.intro-p.w-50.m-100{
+    color: var(--main-color);
+}
+
+.program-comparison, .comparison-image.header-row{
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
+
+.features-label.gray{
+    background-color: var(--slighter-dark);
+    color: var(--main-color);
+}
+
+.small, .link-dark{
+    color: var(--slight-light);
+}
+
+.diagonal-section{
+    filter: invert(1);
+}
+
+.key-row.w-row{
+    color: var(--main-color);
+}
+
+.section.gray{
+    background-color: var(--slight-dark) !important;
+}
+
+.dark-blue-text.mt-0, .w-container h2{
+    color: var(--new-blue);
+}
+
+/* Other Books and Gear */
+
+.attributes select{
+    background-color: var(--slight-dark);
+    color: var(--main-color);
+}
+
+/* Gift Certificates */
+
+.form-control{
+    background-color: var(--slight-dark);
+    color: var(--main-color);
+}
+
+/* Community Forums */
+
+.cmty-category-cell-bottom, .cmty-topic-cell, .aops-scroll-inner{
+    background-color: var(--slight-dark) !important;
+}
+
+.cmty-category-cell-sublink-heading{
+    color: var(--new-blue) !important;
+}
+
+.cmty-topic-cell-post img{
+    filter: invert(1);
+}
+
+#subheader, .header-box.community-background-color{
+    background-color: var(--dark-blue) !important;
+}
+
+.round-dropdown, .cmty-main-crumb-search, .cmty-category-cell.cmty-category-cell-folder.cmty-category-cell-no-numrow{
+    background-color: var(--slight-dark) !important;
+}
+
+.cmty-main-crumb-search input{
+    color: var(--main-color) !important;
+}
+
+.cmty-whois{
+    color: var(--main-color);
+}
+
+.cmty-category-autocomplete-wrapper.cmty-search-with-icon.ui-front{
+    background-color: var(--slighter-dark);
+}
+
+/* Contest Collections */
+
+.cmty-small-category-heading.cmty-category-cell-heading{
+    background-color: var(--slight-dark) !important;
+}
+
+.cmty-itembox-inner-box.aops-scroll-content{
+    background-color: var(--slight-dark) !important;
+}
+
+/* Search */
+
+.cmty-search-form div{
+    background-color: var(--background-color) !important;
+}
+
+.cmty-search-subheading{
+    color: var(--new-blue) !important;
+}
+
+.enter-to-search, .cmty-items-input.ui-autocomplete-input, .cmty-search-dates-select select{
+    background-color: var(--sight-dark);
+    color: var(--main-color);
+}
+
+/* Help */
+
+.info-box{
+    background-color: var(--background-color);
+    color: var(--new-blue);
+}
+
+.cmty-help-container div h1{
+    color: var(--new-blue);
+}
+
+.cmty-faq-item, .cmty-help-container p{
+    color: var(--main-color);
+}
