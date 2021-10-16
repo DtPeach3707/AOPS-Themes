@@ -781,3 +781,113 @@ fieldset dd{
 .submenu-wrapper a{
     color: var(--new-blue) !important;
 }
+
+/* Emergency Homeschool Resources */
+
+.dark-gray.categories{
+    background-color: var(--slight-dark);
+    color: var(--main-color);
+}
+
+.lt-gray.categories{
+    background-color: var(--slighter-dark);
+    color: var(--main-color);
+}
+
+.category-header, .hero-tagline, .class-category, .class-header{
+    color: var(--new-blue);
+}
+
+.category-image img{
+    filter: saturate(500%);
+}
+
+.recommendations-pattern, .category-container.w-container{
+    filter: invert(1);
+}
+
+.centered.recommendations-intro, .body.class-description{
+    color: var(--main-color);
+}
+
+.class-block{
+    background-color: var(--slighter-dark);
+}
+
+/* AoPS Blog Main Page */
+
+.section{
+    background-color: var(--background-color) !important;
+}
+
+.post-heading-small, .post-heading-big, .post-heading-medium, .header, .text-block-26{
+    color: var(--new-blue);
+}
+
+.post-summary, .heading-6, .form-info{
+    color: var(--main-color);
+}
+
+.link-block-3.w-inline-block{
+    color: var(--new-blue);
+    border-color: var(--new-blue) !important;
+}
+
+.subscribe-v1{
+    background-color: var(--dark-blue);
+}
+
+#email{
+    background-color: var(--slight-dark);
+}
+
+#_form_616B186A8110D_ input[type="text"]{
+    color: var(--main-color) !important;
+}
+
+.w-inline-block img{
+    filter: invert(1) hue-rotate(170deg) saturate(50%);
+}
+
+.banner-728x90.w-inline-block, .banner-sidebar.w-inline-block{
+    filter: invert(1) hue-rotate(190deg) saturate(200%);
+}
+
+.nav-bar-v1.w-nav, .wrapper.nav-bar-v1-wrapper{
+    background-color: var(--slight-dark) !important;
+}
+
+.nav-link div{
+    color: var(--new-blue);
+}
+
+.tag{
+    background-color: var(--slighter-dark);
+    border-color: var(--gray);
+    color: var(--new-blue);
+}
+
+.mini-icon-grey{
+    filter: invert(1);
+}
+
+/* AoPS Blog Article */
+
+.post-rich-text.w-richtext, .post-first-letter, .post-mini-heading.article-page{
+    color: var(--new-blue);
+}
+
+figcaption{
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
+
+.post-about{
+    background-color: var(--background-color);
+    color: var(--new-blue);
+}
+
+.post-subscribe{
+    background-color: var(--dark-blue);
+    color: var(--main-color);
+}
