@@ -5,7 +5,7 @@
 This code shows the order I did each page in AOPS's website in comments
 (some I completley skipped because it used styles I already made into dark mode)
 Therefore, if you're trying to find an important background or font styling,
-I would recommend looking for it in the first hundred or so lines of code before
+I would recommend looking for it in earlier parts of the code before
 looking for it on the specific page.
 Otherwise, enjoy AOPS dark mode!
 */
@@ -615,4 +615,169 @@ fieldset dd{
 
 .cmty-faq-item, .cmty-help-container p{
     color: var(--main-color);
+}
+
+/* Alcumus resource page */
+
+.alc-get-started, .alc-intro-bullet-head, .white-panel h1{
+    color: var(--new-blue) !important;
+}
+
+.alc-intro-footnote{
+    color: var(--main-color);
+}
+
+/* Videos */
+
+.intro-container h2, .aops-main-color{
+    color: var(--new-blue) !important;
+}
+
+/* For the Win! */
+
+.ftw-header, .ftw-login, .ftw-bullets{
+    background-color: var(--background-color);
+}
+
+.ftw-content div{
+    color: var(--main-color);
+}
+
+.ftw-content h2{
+    color: var(--new-blue);
+}
+
+/* Mathcounts Trainer */
+
+.mc-page.mc-page-no-header{
+    background-color: var(--background-color);
+}
+
+/* Latex TeXer */
+
+.panel, .CodeMirror-scroll{
+    color: var(--main-color);
+    background-color: var(--background-color);
+}
+
+.CodeMirror-gutter.CodeMirror-linenumbers{
+    background-color: var(--background-color);
+    color: var(--slight-light);
+}
+
+.panel img{
+    filter: invert(1);
+}
+
+/* MIT PRIMES and CrowdMath */
+
+.polymath-header p{
+    color: var(--main-color);
+}
+
+.polymath-header-main h4, .polymath-header-main h1, .aops-panel h2{
+    color: var(--new-blue) !important;
+}
+
+.aops.projects tbody tr{
+    background-color: var(--slighter-dark);
+}
+
+/* Keep Learning */
+
+.keeplearning-header div h1, .active div h2{
+    color: var(--new-blue);
+}
+
+.keeplearning-header div div p{
+    color: var(--main-color);
+}
+
+.latex, .latexcenter{
+    filter: invert(1);
+}
+
+/* AMC Main Page */
+
+.contest-landing-hero-caption.position-center, .contest-callout.rounded, .past-events.events .events-container .event{
+    background-color: var(--slight-dark);
+    color: var(--main-color);
+}
+
+#contest-landing{
+    background-color: var(--slighter-dark) !important;
+}
+
+.contest-callouts-title{
+    color: var(--new-blue);
+}
+
+#events, .contest-platform-excerpt{
+    filter: invert(1);
+}
+
+#events h2, #events div, .contest-platform-excerpt h2, .excerpt-container{
+    filter: invert(1);
+}
+
+.events h2{
+    color: var(--new-blue);
+}
+
+.event{
+    background-color: var(--slighter-dark);
+    color: var(--main-color);
+}
+
+.past-events .event-details-container h6, .excerpt-container div p{
+    color: var(--main-color);
+}
+
+.load-more.rounded-button{
+    background-color: var(--slight-dark);
+    color: var(--new-blue);
+}
+
+.contest-platform-excerpt h2, .excerpt-container div a{
+    color: var(--new-blue);
+}
+
+.faqs, .faq-card-header, .faq-card-body, .faq-accordion h3{
+    background-color: var(--slight-dark);
+    color: var(--main-color);
+}
+
+.faqs h2{
+    color: var(--new-blue);
+}
+
+.faq-card-header span::after{
+    filter: invert(1);
+}
+
+/* Other Contests Page */
+
+.contest-caption.contest-main-content.rounded, .contest-main-content.caption-training-callout-inner{
+    background-color: var(--slight-dark);
+    color: var(--main-color);
+}
+
+.caption-practice-callout-right-container h6{
+    color: var(--new-blue);
+}
+
+/* Reaper Page */
+
+#reaper-wrapper div{
+    color: var(--main-color);
+}
+
+/* Greed Control */
+
+#main-column{
+    color: var(--main-color);
+}
+
+.submenu-wrapper a{
+    color: var(--new-blue) !important;
 }
